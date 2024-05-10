@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Website_DesignPage/Image/RE.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 118%; 
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.logo img {
+    height: 66px;
+    width: 68px;
+    position: absolute;
+    top: 9px;
+    left: 271px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav h1{
+    
+    line-height: 80px;
+    font-size: inline;
+    position: absolute;
+    color:red; 
+    width: 100%;
+    top: -36px;
+    left: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.article h1 {
+    top: 269px;
+    left: 982px;
+    font-size: 35px;
+    text-align: center;
+    color: wheat;
+    letter-spacing: 1.0px;
+    margin-bottom: 25px;
+    position: absolute;
+}
+.article p{
+    top:111px;;
+    left: 13px;
+    font-size: 35px;
+    text-align: center;
+    color: wheat;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    position: absolute;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+.home
+{
+    position: absolute;
+    color: white;   
+    top: 27px;
+    left: 429px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.home:hover {
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+
+}
+
+.submenu {
+    position: absolute;
+    display: none; 
+}
+
+.home:hover .submenu {
+    display: block; 
+    
+    transform: scale(1.1);
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu ul li {
+    padding: 4px 5px;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu ul li:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.1);
+}
+
+.Model{
+    position: absolute;
+    color: white; 
+    top: 27px;
+    left: 609px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Model:hover
+{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+}
+.submenu3 {
+    position: absolute;
+    display: none; 
+}
+
+.Model:hover .submenu3 {
+    display: block;
+    transform: scale(1.1);
+}
+
+.submenu3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu3 ul li {
+    padding: 4px 5px;
+}
+
+.submenu3 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu3 ul li:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.1);
+}
+.shop{
+    position: absolute;
+    color: white; 
+    top: 27px;
+    left: 692px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.shop:hover{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+}
+.submenu1 {
+    position: absolute;
+    display: none; 
+}
+
+.shop:hover .submenu1 {
+    display: block; 
+}
+
+.submenu1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu1 ul li {
+    padding: 4px 5px;
+}
+.submenu1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu1 ul li:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.1);
+}
+.services{
+    position: absolute;
+    color: white; 
+    top: 27px;
+    left: 766px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.services:hover{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+}
+.submenu2 {
+    position: absolute;
+    display: none; 
+}
+
+.services:hover .submenu2 {
+    display: block; 
+    transform: scale(1.1);
+}
+
+.submenu2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu2 ul li {
+    padding: 4px 5px;
+}
+
+.submenu2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.submenu2 ul li:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+}
+.Ride{
+    position: absolute;
+    color: white; 
+    top: 27px;
+    left: 854px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Ride:hover{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+}
+.Contact{
+    position: absolute;
+    color: white; 
+    top: 27px;
+    right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Contact:hover{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+} 
+.search
+{
+    position: absolute;
+    top: 29px;
+    right: 117px;
+    border-radius: 6px;    
+    font-size: 20px;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: gray;
+    display: block;
+    transform: scale(1.1);
+}
